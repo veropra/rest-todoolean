@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  margin: 50px;
+  background-color: #2d3436;
+}
+
+h1{
+  text-align: center;
+  color: #636e72;
+}
+
+.input_button{
+  text-align: center;
+  margin: 40px;
+
+}
+
+#new_todo, #new_todo_button{
+  color: #636e72;
+  font-size: 20px;
+  border: 1px solid #636e72;
+  border-radius: 2px;
+  padding: 5px;
+  text-align: center;
+}
+
+#new_todo_button{
+  background-color: #fff;
+}
+
+.lista{
+  text-align: center;
+  color: #00cec9;
+  height: 40px;
+}
+
+.lista > ul > li {
+  text-align: center;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.fa-times-circle{
+  color: #000;
+  margin-right: 10px;
+}
+
+#todos span {
+  cursor: pointer;
+}
